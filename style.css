@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+}
+
+header, footer{
+    width: 100%;
+    background-color: #f4e048;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.bordes{
+    border: 1px solid #000;
+}
+
+
+aside{
+    width: 20%;
+}
+
+section{
+    width: 55%;
+    flex-direction: row;    /* que se coloquen en fila horizontal */
+    display: flex;
+}
+
+
+div{
+    width: 25%;
+}
+
+
+section div {
+    width: 100%; /* Evita que el width: 25% general afecte */
+   
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+/* <article id="carouselExample" class="carousel slide">
+  <article class="carousel-inner">
+    <article class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </article>
+    <article class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </article>
+    <article class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </article>
+  </article>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</article> */

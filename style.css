@@ -9,13 +9,14 @@ body{
 
 header, footer{
     width: 100%;
-    background-color: #f4e048;
+    background-color: #f8e764;
     text-align: center;
 }
 
 main{
     display: flex;
     flex-direction: row;
+    background-color: aquamarine;
 }
 
 .bordes{
@@ -56,7 +57,35 @@ h2{
 img{
     width: 320px;
     height: 240px;
+    display: block;
+    margin: 0 auto;
 }
+
+ul{
+    font-size: 25px;
+}
+
+footer{
+    font-size: 30px;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+.espacio{
+    padding: 10px;
+}
+
+p{
+    font-size: 12px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+
 
 
 
